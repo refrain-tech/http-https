@@ -8,7 +8,7 @@
     <script src = 'https://refrain-net.github.io/res/utils.js'></script>
     <script>
 const {url = ''} = document.getParameters();
-if (url.startsWith('https://')) location.href = url;
+if (url !== '') location.href = url;
     </script>
   </body>
 </html>
